@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./시계.jpg');
+}
+
+.container{
+    border: 5px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top:15rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+
+.container h2{
+    text-align: center;
+    font-weight: bold;
+}
+.container #clork{
+    background-color: burlywood;
+    font-size: 7rem;
+    text-align: center;
+}
